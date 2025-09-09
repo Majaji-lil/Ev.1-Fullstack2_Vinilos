@@ -1,0 +1,19 @@
+/*titulo*/
+.brand-logo1{
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+.noticia1{
+    margin:10px 100px;
+    padding: 10px;
+    border: 1px solid white;
+}
+img{
+    height: 200px;
+}
+.lista-noticia{
+    margin-left: 100px;
+    text-align: left;
+}

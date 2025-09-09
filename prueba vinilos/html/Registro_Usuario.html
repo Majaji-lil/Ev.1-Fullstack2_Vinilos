@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Usuario</title>
+    <link rel="stylesheet" href="../Css/nav-footer.css">
+    <link rel="stylesheet" href="../Css/sesion.css">
+    <link rel="stylesheet" href="../Css/Carrito.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+</head>
+
+<body>
+    <nav id="nav"></nav>
+    <main>
+        <div class="formulario-inicio-sesion-container">
+            <h2 class="center-align">Registro de Usuario</h2>
+            <form id="formRegistro" action="../index.html" method="POST">
+                <div class="campo-inicio-sesion">
+                    <label for="username">Nombre Completo</label>
+                    <input type="text" id="username" name="username">
+                </div>
+                <div class="campo-inicio-sesion">
+                    <label for="email">Correo Electrónico</label>
+                    <input type="text" id="email" name="email">
+                </div>
+                <div class="campo-inicio-sesion">
+                    <label for="email">Verificar Correo Electrónico</label>
+                    <!--aqui cambie "email" por "text"-->
+                    <input type="text" id="emailConfirmacion" name="emailConfirmacion">
+                </div>
+                <div class="campo-inicio-sesion">
+                    <label for="password">Contraseña</label>
+                    <input type="password" id="password" name="password">
+                </div>
+                <div class="campo-inicio-sesion">
+                    <label for="password">Confirmar Contraseña</label>
+                    <input type="password" id="passwordConfirmacion" name="passwordConfirmacion">
+                </div>
+                <div class="campo-inicio-sesion">
+                    <label for="telefono">Teléfono</label>
+                    <input type="tel" id="telefono" name="telefono">
+                </div>
+                <div class="center-align">
+                    <button class="btn-inicio-sesion" type="submit" name="action">Registar Usuario</button>
+                </div>
+            </form>
+    </main>
+    <footer class="page-footer white darken-10" id="footer"></footer>
+    <div id="modalCarrito" class="modal carrito">
+        <div class="modal-content carrito">
+            <h4>Carrito de Compras</h4>
+            <ul id="carritoModal"></ul>
+            <p>Total: $<span id="totalModal">0</span></p>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-close waves-effect waves-purple btn-flat">Cerrar</a>
+        </div>
+    </div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script src="../JS/registro_login.js"></script>
+<script src="../JS/nav_Footer.js"></script>
+<script src="../JS/Carrito.js"></script>
+
+</html>

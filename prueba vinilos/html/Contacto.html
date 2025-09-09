@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="../Css/contacto.css">
+    <link rel="stylesheet" href="../Css/nav-footer.css">
+    <link rel="stylesheet" href="../Css/Carrito.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+    <nav id="nav"></nav>
+    <main class="container-formulario">
+        <form id="formContacto" action="Contacto.html" method="post">
+            <h2 class="center-align">Formulario de Contacto</h2>
+            <div class="campo-contacto">
+                <label for="N_Completo">Nombre Completo</label>
+                <input type="text" id="N_Completo" name="N_Completo">
+            </div>
+            <div class="campo-contacto">
+                <label for="Correo">Correo Electrónico</label>
+                <!--cambie "email" por "text"-->
+                <input type="text" id="Correo" name="Correo">
+            </div>
+            <div class="campo-mensaje">
+                <label for="contenido">Mensaje</label>
+                <textarea id="contenido" name="contenido"></textarea>
+            </div>
+            <div class="center">
+                <button href="index.html" class="btn-formulario" type="submit" name="action">Enviar Formulario</button>
+            </div>
+        </form>
+    </main>
+    <footer class="page-footer" id="footer"></footer>
+    <div id="modalCarrito" class="modal carrito">
+        <div class="modal-content carrito">
+            <h4>Carrito de Compras</h4>
+            <ul id="carritoModal"></ul>
+            <p>Total: $<span id="totalModal">0</span></p>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-close waves-effect waves-purple btn-flat">Cerrar</a>
+        </div>
+    </div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script src="../JS/nav_Footer.js"></script>
+<script src="../JS/Carrito.js"></script>
+<script src="../JS/contacto.js"></script>
+
+</html>

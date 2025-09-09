@@ -1,0 +1,68 @@
+.titulo {
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/*contenedor de las tarjeta de los productos*/
+.hovereable {
+    height: max-content;
+    width: min-content;
+    min-height: 300px;
+    padding: 10px;
+}
+/*boton de agregar al carrito*/
+.btn-agregar{
+    background-color: black;
+    color: white;
+    display: flex;
+    border: 1px solid black;
+    border-radius: 10px ;
+    flex-direction: column;
+    text-align: center;
+    width: 150px;
+    height: 25px;
+    cursor: pointer;
+    padding-top: 5px;
+}
+/*contenedor que contiene todas las tarjetas de los productos*/
+.row{
+    display: flex;
+    flex-direction: row;
+    padding: 10px auto;
+    flex-wrap: wrap;
+    box-sizing: content-box;
+}
+/*boton que manda al detalle de su producto*/
+.hovereable > .btn-compra a{
+    background-color: beige;
+    display:block;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+    color: black;
+}
+/*imagen de la carta*/
+.hovereable >.card img {
+    max-width: cover;
+    height: cover;
+    border-radius: 8px;
+}
+/*infromacion general de la carta*/
+.hovereable >.card-flex > .card-info {
+    text-align: center;
+}
+.hovereable > .card-flex {
+    flex: 1;
+    color: #444;
+    display: none !important;
+}
+.hovereable > .card-lista {
+    text-align: center;
+}
+.hovereable:hover > .card-flex {
+    display: block !important;
+}
+

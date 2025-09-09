@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio de Sesión</title>
+    <link rel="stylesheet" href="../Css/nav-footer.css">
+    <link rel="stylesheet" href="../Css/sesion.css">
+    <link rel="stylesheet" href="../Css/Carrito.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+    <nav id="nav"></nav>
+   <section>
+        <div class="formulario-inicio-sesion-container">
+            <form id="form" action="../index.html" method="POST">
+                <h2 class="center-align">Inicio de Sesión</h2>
+                <div class="campo-inicio-sesion">
+                    <label for="username">Usuario</label>
+                    <input type="text" id="username" name="username"> 
+                </div>
+                <div class="campo-inicio-sesion">
+                    <label for="password">Contraseña</label>
+                    <input type="password" id="password" name="password">
+                </div>
+                <div class="center">
+                    <button href="../index.html" class="btn-inicio-sesion" type="submit" name="action">Iniciar
+                        Sesión</button>
+                </div>
+            </form>
+        </div>
+    </section>
+        </div>
+    </section>
+    <footer class="page-footer" id="footer"></footer>
+    <div id="modalCarrito" class="modal carrito">
+        <div class="modal-content carrito">
+            <h4>Carrito de Compras</h4>
+            <ul id="carritoModal"></ul>
+            <p>Total: $<span id="totalModal">0</span></p>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-close waves-effect waves-purple btn-flat">Cerrar</a>
+        </div>
+    </div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script src="../JS/login.js"></script>
+<script src="../JS/nav_Footer.js"></script>
+<script src="../JS/Carrito.js"></script>
+
+</html>

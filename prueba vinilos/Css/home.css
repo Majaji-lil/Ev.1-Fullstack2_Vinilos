@@ -1,0 +1,56 @@
+/*botones de inicio de sesion*/
+.btn-sesion.waves-effect.waves-purple {
+    border-radius: 10px;
+    color: black;
+    padding: 10px 10px;
+    background-color: beige;
+    text-align: left;
+    display: block;
+    width: 200px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+    border: 2px solid black;
+    top: 5px;
+    right: 10px;
+}
+/*carta principal de la pagina */
+.card-flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    box-sizing: border-box;
+}
+/*detalles de el producto*/
+.card-info {
+    flex: 1;
+    display: flex;
+    justify-content: row;
+}
+/*imagen de el producto*/
+.card-img-side {
+    flex: 2;
+
+}
+/*titulo de la carta*/
+.card>.card-titulo {
+    font-size: 18px;
+    color: white;
+    text-align: center;
+}
+/*lista con el genero, etc de el producto*/
+.card-side-text-list {
+    display: flex;
+    border: #ffffff 1px solid;
+    border-radius: 8px;
+    background-color: rgba(30, 30, 30, 0.7);
+    font-size: 14px;
+    color: white;
+    text-align: justify;
+} 
+.card-flex > .card-info-dest {
+    text-align: center;
+}
+
+
+

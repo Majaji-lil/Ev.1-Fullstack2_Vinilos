@@ -1,0 +1,13 @@
+#imgProducto {
+    min-height: 400px;
+    width: 400px;
+}
+#detalle-producto {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#infoProducto {
+    margin-top: 20px;
+    border: 1px solid white;
+    align-items: center;
+}

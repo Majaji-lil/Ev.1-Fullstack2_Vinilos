@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Css/nav-footer.css">
+    <link rel="stylesheet" href="../Css/Producto.css">
+    <link rel="stylesheet" href="../Css/Carrito.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <nav id="nav"></nav>
+    <main>
+        <div class="row" id="detalle-producto">
+            <div class="col m6 text-center imag-flex">
+                <img id="imgProducto">
+            </div>
+            <div class="col m6" id="infoProducto">
+                <h2 class="" id="tituloProducto"></h2>
+                <p>Autor: <span id="autorProducto"></span></p>
+                <p>Costo: $ <span id="valorProducto"></span></p>
+                <p id="descripcionProducto"></p>
+                <div id="listaProducto"></div>
+                <a id="btn-agregar" class="btn green">Agregar al carrito</a>
+            </div>
+        </div>
+    </main>
+    <footer class="page-footer" id="footer"></footer>
+    <div id="modalCarrito" class="modal carrito">
+        <div class="modal-content carrito">
+            <h4>Carrito de Compras</h4>
+            <ul id="carritoModal"></ul>
+            <p>Total: $<span id="totalModal">0</span></p>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-close waves-effect waves-purple btn-flat">Cerrar</a>
+        </div>
+    </div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script src="../JS/ArrayProductos.js"></script>
+<script src="../JS/Carrito.js"></script>
+<script src="../JS/Producto.js"></script>
+<script src="../JS/nav_Footer.js"></script>
+
+</html>

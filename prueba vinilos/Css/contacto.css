@@ -1,0 +1,67 @@
+
+body{
+    background-color: #121212;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+.container-formulario {
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+}
+
+.campo-contacto input {
+    color: white;
+    border: none;
+    border-bottom: 2px solid ;
+    font-size: 16px;
+}
+.campo-contacto label{
+    color: white;
+}
+.campo-contacto {
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    transition: border-color 0.3s;
+}
+.campo-mensaje{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    transition: border-color 0.3s;
+}
+.campo-mensaje label{
+    color: white;
+}
+.campo-mensaje textarea {
+    min-height: 120px;
+    max-height: 250px;
+    resize: none;
+    color: white;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid ;
+    font-size: 16px;
+    padding: 8px;
+}
+.btn-formulario{
+    border-radius: 10px;
+    color: black;
+    padding: 10px 10px;
+    background-color: white;
+    text-align: center;
+    display: center;
+    width: 200px;
+    margin-bottom: 10px;
+    border: 2px solid black;
+}
+
