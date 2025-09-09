@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link rel="stylesheet" href="CSS/nav-footer.css">
+  <link rel="stylesheet" href="CSS/home.css">
+  <link rel="stylesheet" href="CSS/Productos.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+  <section class="barra-de-arriba-home">
+    <nav>
+      <div class="nav-wrapper">
+        <img src="img/logo.png" alt="Logo Vinilo" class="logo-img">
+        <a href="index.html" class="brand-logo">Retro Vibe</a>
+        <ul id="nav-mobile" class="right">
+          <li><a href="html/Productos.html">Productos</a></li>
+          <li><a href="html/Blog.html">Blogs</a></li>
+          <li><a href="html/Nosotros.html">Nosotros</a></li>
+          <li><a href="html/Contacto.html">Contacto</a></li>
+          <li><a href="html/Carrito.html"><i class="material-icons">shopping_cart</i></a></li>
+        </ul>
+      </div>
+    </nav>
+  </section>
+  <main>
+    <section class="Sesion">
+      <ul>
+        <li class="Inicio_sesion">
+          <a class="btn-sesion waves-effect waves-purple" href="html/Inicio_sesion.html">
+            <i class="material-icons">account_circle</i>Iniciar Sesion</a>
+        </li>
+      </ul>
+      <ul>
+        <li class="Inicio_sesion">
+          <a class="btn-sesion waves-effect waves-purple" href="html/Registro_Usuario.html">
+            <i class="material-icons">account_circle</i>Registrate</a>
+        </li>
+      </ul>
+    </section>
+    <div class="container">
+      <div class="main">
+        <div class="col s15 m12">
+          <div class="card grey darken-3">
+            <div class="card-content white-text card-flex">
+              <div class="card-img-side">
+                <img
+                  src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjEokdCgBjUFyNA74oibQnXYA3dahRiIg6-Ytl0rDCLmm3Tx1gOMvNZXCm5ErZZWJNkChKXvpw2R7RstCmqn_6Lf3J97ZkoOAZOfiysI8hmcZ5Fk3sFmb3Cynlpkax9wosrbd-GonX-Kw1YRRCRs0wTdp_JBAToKarAIiemb3Y3BF4Ssdn79rLD5NPIlw/s590/5_queen-ii.png"
+                  alt="imagen-grande">
+                <span class="card-title">VINILO QUEEN II 1974</span>
+                <p>Queen II es el segundo álbum de estudio de la banda de rock Queen, lanzado al mercado el 8 de marzo
+                  de
+                  1974 por EMI Records en el Reino Unido y por Elektra Records en los Estados Unidos</p>
+                <p class="precio">$20.000</p>
+              </div>
+              <div class="card-info">
+                <span class="card-side-text-list">
+                  <ul>
+                    <li><strong>Artista:</strong> Queen</li>
+                    <li><strong>Género:</strong> Rock</li>
+                    <li><strong>Año de lanzamiento:</strong> 1974</li>
+                    <li><strong>Duración:</strong> 40:42</li>
+                    <li><strong>Productor:</strong> Roy Thomas Baker, Queen</li>
+                    <li><strong>Discográfica:</strong> EMI (Reino Unido), Elektra (EE.UU.)</li>
+                  </ul>
+                </span>
+              </div>
+            </div>
+            <div class="card-action waves-effect waves-purple modal-trigger">
+              <a href="#modal-producto" class="ver-producto-btn waves-effect waves-purple modal-trigger "
+                data-titulo="VINILO QUEEN II 1974" data-autor="Queen"
+                data-img="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjEokdCgBjUFyNA74oibQnXYA3dahRiIg6-Ytl0rDCLmm3Tx1gOMvNZXCm5ErZZWJNkChKXvpw2R7RstCmqn_6Lf3J97ZkoOAZOfiysI8hmcZ5Fk3sFmb3Cynlpkax9wosrbd-GonX-Kw1YRRCRs0wTdp_JBAToKarAIiemb3Y3BF4Ssdn79rLD5NPIlw/s590/5_queen-ii.png"
+                data-descripcion="Queen II es el segundo álbum de estudio de la banda de rock Queen, lanzado al mercado el 8 de marzo
+                  de 1974 por EMI Records en el Reino Unido y por Elektra Records en los Estados Unidos" 
+                  data-precio="$20.000" data-lista="<ul>
+                  <li><strong>Artista:</strong> Queen</li>
+                  <li><strong>Género:</strong> Rock</li>
+                  <li><strong>Año de lanzamiento:</strong> 1974</li>
+                  <li><strong>Duración:</strong> 40:42</li>
+                  <li><strong>Productor:</strong> Roy Thomas Baker, Queen</li>
+                  <li><strong>Discográfica:</strong> EMI (Reino Unido), Elektra (EE.UU.)</li>
+                </ul>">
+                Ver Productos
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+    <h3 class="center-align">Productos Destacados</h3>
+    <div class="row" id="productosDest"></div>
+    </div>
+</main>
+  <footer class="footer">
+    <div class="cover-container">
+      <div class="footer">
+        <div class="col l6 s12">
+          <h5 class="black-text">Footer Content</h5>
+          <p class="black-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container text-lighten-4 left-align">
+        © 2025 Copyright Text
+        <a class="black-text text-lighten-4 right" href="#!">More Links</a>
+      </div>
+    </div>
+  </footer>
+  <section>
+    <div id="modal-producto" class="modal">
+      <div class="modal-content modal-flex">
+        <div class="modal-main">
+          <h4 id="modal-titulo"></h4>
+          <img id="modal-img" src="" alt="">
+          <p id="modal-autor"></p>
+          <p id="modal-descripcion"></p>
+          <p id="modal-precio" style="font-weight: bold;"></p>
+        </div>
+        <div id="modal-lista" class="modal-lista"></div>
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class="modal-close waves-effect waves-purple btn-flat">Cerrar</a>
+        <a href="html/Productos.html" class="modal-close waves-effect waves-purple btn-flat">Comprar</a>
+      </div>
+    </div>
+  </section>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script src="JS/Prueba_Melli.js"></script>
+<script src="JS/nav_Footer.js"></script>
+<script src="JS/ArrayProductos.js"></script>
+<script src="JS/ProductosDest.js"></script>
+
+</html>

@@ -1,0 +1,35 @@
+.campo-inicio-sesion {
+    background-color: rgb(0, 0, 0);
+    margin-bottom: 20px;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    transition: border-color 0.3s;
+}
+.campo-inicio-sesion label {
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+}
+.btn-inicio-sesion {
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.formulario-inicio-sesion-container{
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+}
+/* agregue lo que me pediste para arreglar el problema de las letras en negro*/
+.campo-inicio-sesion input {
+    color: white;
+    font-size: 16px;
+
+}

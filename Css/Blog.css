@@ -1,0 +1,38 @@
+
+.material-icons {
+    vertical-align: middle;
+    margin-right: 10px;
+    margin-left: 10px;
+    color: black;
+}
+.brand-logo1 {
+    font-size: 24px;
+    padding-left: 10px;
+    color: white !important;
+}
+.brand-logo1 > .material-icons {
+    vertical-align: middle;
+    margin-right: 10px;
+    margin-left: 10px;
+    color: white;
+}
+.titulo {
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.card-image {
+    width: 500px;
+    height: 500px;
+}
+.card-content {
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    text-align: justify;
+    font-size: 16px;
+    line-height: 1.6;
+    padding: 20px;
+    margin: 1px;
+    margin-bottom: 1px;
+}

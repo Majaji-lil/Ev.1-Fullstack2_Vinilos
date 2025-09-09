@@ -1,0 +1,48 @@
+.titulo {
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.hovereable {
+    width: min-content;
+    min-height: 300px;
+    border-radius: 12px;
+    padding: 10px;
+}
+.row{
+    display: flex;
+    padding: 10px;
+    width: max-content;
+}
+.hovereable > .btn-compra a{
+    display:block;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+    color: aliceblue;
+}
+.hovereable >.card img {
+    max-width: cover;
+    height: cover;
+    border-radius: 8px;
+    display: block !important;
+}
+
+.hovereable >.card-flex > .card-info {
+    text-align: center;
+}
+.hovereable > .card-flex {
+    flex: 1;
+    color: #444;
+    display: none !important;
+}
+.hovereable > .card-lista {
+    text-align: center;
+}
+.hovereable:hover > .card-flex {
+    display: block !important;
+}
+

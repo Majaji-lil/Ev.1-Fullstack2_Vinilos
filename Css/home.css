@@ -1,0 +1,83 @@
+.btn-sesion.waves-effect.waves-purple {
+    border-radius: 10px;
+    color: black;
+    padding: 10px 10px;
+    background-color: beige;
+    text-align: left;
+    display: block;
+    width: 200px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+    border: 2px solid black;
+    top: 5px;
+    right: 10px;
+}
+
+.card-flex {
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.card-info {
+    flex: 1;
+    display: flex;
+    justify-content: row;
+}
+
+.card-img-side {
+    flex: 2;
+}
+
+.card>.card-titulo {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+.card-side-text-list {
+    border: #ffffff 1px solid;
+    border-radius: 8px;
+    background-color: rgba(30, 30, 30, 0.7);
+    font-size: 14px;
+    color: white;
+    text-align: justify;
+} 
+.card-flex > .card-info-dest {
+    text-align: center;
+}
+
+.modal {
+    color: black;
+}
+
+.modal .modal-content {
+    background-color: #2c2c2c;
+    color: #ffffff;
+}
+
+.modal .modal-footer {
+    text-align: center;
+    border: 2px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    background-color: #2c2c2c;
+}
+
+.modal-close.waves-effect.waves-purple.btn-flat {
+    size: 100px;
+    color: black;
+    text-align: center;
+}
+
+.modal-lista {
+    background: rgba(30, 30, 30, 0.7);
+    padding: 16px;
+    border-radius: 12px;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.modal-lista img {
+    border-radius: 8px;
+}
